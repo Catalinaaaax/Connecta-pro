@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Connecta Pro — Soluciones para tu empresa</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/Logo.png" type="image/png">
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="Connecta Pro - Desarrollo de software, diseño y consultoría fiscal para micro y medianas empresas.">
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/Logo.png" alt="Connecta Pro" class="logo">
+        <span class="brand-text">Connecta Pro</span>
+      </div>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#consultoria">Consultoría</a></li>
+          <li><a href="#paquetes">Paquetes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <a href="#contacto" class="btn btn-primary">Empezar Ahora</a>
+        <button id="navToggle" class="hamburger" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="eyebrow"> Soluciones Integrales para tu Negocio</div>
+      <h1 class="hero-title">Impulsa tu negocio al <span class="accent">siguiente nivel</span></h1>
+      <p class="hero-sub">Desarrollo de software, diseño creativo y consultoría especializada para micro y medianas empresas que quieren destacar.</p>
+      <div class="hero-cta">
+        <a href="#servicios" class="btn btn-ghost">Empezar mi proyecto</a>
+        <a href="#contacto" class="btn btn-primary-outline">Ver nuestros servicios</a>
+      </div>
+
+      <div class="metrics">
+        <div class="metric"><strong>15+</strong><span>Proyectos Completados</span></div>
+        <div class="metric"><strong>98%</strong><span>Satisfacción del cliente</span></div>
+        <div class="metric"><strong>7 días</strong><span>Entrega promedio</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section services">
+    <div class="container">
+      <div class="section-header center">
+        <span class="badge">Nuestros Servicios</span>
+        <h2>Soluciones completas para <span class="accent">tu empresa</span></h2>
+        <p class="lead">Ofrecemos servicios especializados en tres áreas clave para el crecimiento de tu negocio</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon"><img src="assets/icons/software.svg" alt="Icono Desarrollo de Software"></div>
+          <h3>Desarrollo de Software</h3>
+          <p>Creemos soluciones tecnológicas a medida para impulsar tu negocio</p>
+          <ul class="features">
+            <li>Páginas Web Profesionales</li>
+            <li>Aplicaciones Web y Móviles</li>
+            <li>Sistemas a Medida</li>
+          </ul>
+          <button class="btn btn-outline modal-open" data-service="Software">Solicitar Información</button>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><img src="assets/icons/diseño.svg" alt="Icono Diseño y Marketing"></div>
+          <h3>Diseño & Marketing</h3>
+          <p>Diseño creativo y estrategias digitales que conectan con tu audiencia</p>
+          <ul class="features">
+            <li>Diseño Gráfico y Branding</li>
+            <li>Marketing Digital</li>
+            <li>Gestión de Redes Sociales</li>
+          </ul>
+          <button class="btn btn-outline modal-open" data-service="Diseño">Solicitar Información</button>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><img src="assets/icons/Asesoria Contabilidad.svg" alt="Icono Consultoría Fiscal"></div>
+          <h3>Consultoría Fiscal</h3>
+          <p>Asesoramiento experto en declaraciones de renta y planificación fiscal</p>
+          <ul class="features">
+            <li>Declaraciones de Renta</li>
+            <li>Consultoría Tributaria</li>
+            <li>Planificación Fiscal</li>
+          </ul>
+          <button class="btn btn-outline modal-open" data-service="Renta">Solicitar Información</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Consultoría (oscuro) -->
+  <section id="consultoria" class="section consultoria dark">
+    <div class="container">
+      <div class="section-header center">
+        <span class="badge">Consultoría Individual</span>
+        <h2>Asesoramiento <span class="accent">personalizado</span></h2>
+        <p class="lead">Recibe orientación experta en las áreas que tu negocio necesita</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card card-dark">
+           <div class="card-icon"><img src="assets/icons/software.svg" alt="Icono Desarrollo de Software"></div>
+          <h3>Consultoría de Software</h3>
+          <p>Análisis y planificación tecnológica para tu proyecto</p>
+          <p class="price">Desde <strong>$80.000 COP</strong>/hora</p>
+          <ul class="features">
+            <li>Análisis de requerimientos</li>
+            <li>Arquitectura de software</li>
+            <li>Revisión técnica de código</li>
+            <li>Optimización de sistemas</li>
+          </ul>
+          <button class="btn btn-primary modal-open" data-service="Consultoría Software">Agendar Consulta</button>
+        </article>
+
+        <article class="card card-dark">
+          <div class="card-icon"><img src="assets/icons/diseño.svg" alt="Icono Diseño y Marketing"></div>
+          <h3>Consultoría de Diseño</h3>
+          <p>Estrategia de marca y presencia digital</p>
+          <p class="price">Desde <strong>$80.000 COP</strong>/hora</p>
+          <ul class="features">
+            <li>Auditoría de marca</li>
+            <li>Estrategia de contenido</li>
+            <li>Consultoría de UX/UI</li>
+            <li>Análisis de competencia</li>
+          </ul>
+          <button class="btn btn-primary modal-open" data-service="Consultoría Diseño">Agendar Consulta</button>
+        </article>
+
+        <article class="card card-dark">
+          <div class="card-icon"><img src="assets/icons/Asesoria Contabilidad.svg" alt="Icono Consultoría Fiscal"></div>
+          <h3>Consultoría Fiscal</h3>
+          <p>Asesoramiento personalizado en materia tributaria</p>
+          <p class="price">Desde <strong>$80.000 COP</strong>/hora</p>
+          <ul class="features">
+            <li>Planificación fiscal</li>
+            <li>Revisión de declaraciones</li>
+            <li>Optimización tributaria</li>
+            <li>Asesoría contable</li>
+          </ul>
+          <button class="btn btn-primary modal-open" data-service="Consultoría Fiscal">Agendar Consulta</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paquetes -->
+  <section id="paquetes" class="section packages">
+    <div class="container">
+      <div class="section-header center">
+        <span class="badge">Paquetes de Servicios</span>
+        <h2>Soluciones diseñadas para <span class="accent">cada necesidad</span></h2>
+        <p class="lead">Elige el paquete que mejor se adapte a tu presupuesto y objetivos</p>
+      </div>
+
+      <div class="cards-grid three">
+        <article class="package">
+          <div class="pkg-type">Software</div>
+          <h3>Web Despegue</h3>
+          <p class="pkg-desc">Tu negocio en internet con todo lo esencial</p>
+          <div class="pkg-price"><strong>$600.000</strong> <span>COP</span></div>
+          <ul class="features">
+            <li>Landing Page (1 Página)</li>
+            <li>Diseño responsivo</li>
+            <li>Dominio .com incluido (1 año)</li>
+            <li>Hosting de alta velocidad (1 año)</li>
+            <li>Certificado SSL (Seguridad)</li>
+            <li>Botón de WhatsApp integrado</li>
+            <li>Entrega en 5 días hábiles</li>
+          </ul>
+          <a href="https://wa.me/573233170626?text=Hola,%20me%20interesa%20el%20Paquete%20Web%20Despegue" target="_blank" class="btn btn-outline">Lo quiero</a>
+        </article>
+
+        <article class="package popular">
+          <div class="pkg-type">Diseño</div>
+          <div class="popular-badge">Más Popular</div>
+          <h3>Branding 360°</h3>
+          <p class="pkg-desc">Dale una imagen profesional a tu marca</p>
+          <div class="pkg-price big"><strong>$1.200.000</strong> <span>COP</span></div>
+          <ul class="features">
+            <li>Diseño de Logotipo (3 propuestas)</li>
+            <li>Manual de identidad visual</li>
+            <li>Diseño de tarjetas de presentación</li>
+            <li>Kit para Redes Sociales (6 posts)</li>
+            <li>Entrega de editables</li>
+          </ul>
+          <a href="https://wa.me/573233170626?text=Hola,%20me%20interesa%20el%20Paquete%20Branding%20360" target="_blank" class="btn btn-primary">Lo quiero</a>
+        </article>
+
+        <article class="package">
+          <div class="pkg-type">Contabilidad</div>
+          <h3>Formalización</h3>
+          <p class="pkg-desc">Inicia tu actividad legal sin preocupaciones</p>
+          <div class="pkg-price"><strong>$450.000</strong> <span>COP</span></div>
+          <ul class="features">
+            <li>Inscripción y actualización RUT</li>
+            <li>Registro en Cámara de Comercio</li>
+            <li>Habilitación Facturación Electrónica</li>
+            <li>Asesoría inicial tributaria (1h)</li>
+            <li>Resolución de facturación DIAN</li>
+            <li>Creación de firma electrónica</li>
+          </ul>
+          <a href="https://wa.me/573233170626?text=Hola,%20me%20interesa%20el%20Paquete%20Formalización" target="_blank" class="btn btn-outline">Lo quiero</a>
+        </article>
+      </div>
+
+      <!-- Banner para proyectos a medida -->
+      <div class="custom-project-banner">
+        <h3>¿Tu proyecto necesita algo más potente?</h3>
+        <p>En Connecta Pro desarrollamos soluciones tecnológicas a medida para empresas que quieren crecer sin límites.</p>
+        <ul class="features">
+            <li>Aplicaciones web avanzadas y sistemas empresariales (ERP / CRM).</li>
+            <li>Integraciones inteligentes con APIs y plataformas externas.</li>
+            <li>Sistemas de diseño escalables y branding corporativo sólido.</li>
+            <li>Estrategias de marketing 360° orientadas a resultados.</li>
+        </ul>
+        <div><a href="https://wa.me/573233170626?text=Hola%20Connecta%20pro,%20estoy%20interesado%20en%20cotizar%20un%20proyecto%20con%20alta%20complejidad" target="_blank" class="btn btn-inverted">Cotizar Proyecto</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="section testimonials">
+    <div class="container">
+      <div class="section-header center">
+        <span class="badge">Testimonios</span>
+        <h2>Lo que dicen nuestros <span class="accent">clientes</span></h2>
+      </div>
+      
+      <div class="cards-grid three">
+        <article class="card testimonial-card">
+          <div class="quote-icon">“</div>
+          <p>Connecta Pro transformó completamente nuestra imagen digital. La página web es rápida y el diseño del logo capturó exactamente lo que queríamos transmitir.</p>
+          <div class="author">
+            <strong>Andrea Gómez</strong>
+            <span>Gerente, Boutique Moda</span>
+          </div>
+        </article>
+        <article class="card testimonial-card">
+          <div class="quote-icon">“</div>
+          <p>Gracias a su asesoría contable pude formalizar mi empresa sin dolores de cabeza. Se encargaron de todo el papeleo en la Cámara de Comercio.</p>
+          <div class="author">
+            <strong>Carlos Rodríguez</strong>
+            <span>Fundador, TechSolutions</span>
+          </div>
+        </article>
+        <article class="card testimonial-card">
+          <div class="quote-icon">“</div>
+          <p>El sistema de gestión que desarrollaron nos ha ahorrado horas de trabajo manual. El soporte post-venta ha sido excelente.</p>
+          <div class="author">
+            <strong>Mariana Torres</strong>
+            <span>Directora, Clínica Dental</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <div class="section-header center">
+        <span class="badge">Resolvemos tus dudas</span>
+        <h2>Preguntas <span class="accent">Frecuentes</span></h2>
+      </div>
+
+      <div class="faq-grid">
+        <details class="faq-item">
+          <summary>¿Cuánto tiempo toma desarrollar mi proyecto?</summary>
+          <p>Los tiempos varían según la complejidad: Landing pages básicas (5-7 días), sitios corporativos (14-21 días), 
+            y aplicaciones complejas (30-45 días). Siempre mantenemos comunicación constante sobre el progreso.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué entregan con el diseño de marca?</summary>
+          <p>Entregamos el manual de identidad visual, logotipo en formatos editables (AI, EPS) y de imagen (PNG, JPG), tipografías, códigos de color y aplicaciones para redes sociales.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cómo me ayudan a formalizar mi empresa?</summary>
+          <p>Nos encargamos de todo: inscripción en Cámara de Comercio, RUT, habilitación de facturación electrónica y resolución de la DIAN, asesorándote para cumplir con la ley.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Incluyen hosting y dominio en el precio?</summary>
+          <p>Sí, nuestros paquetes web incluyen hosting de alta velocidad y dominio .com por 1 año. También configuramos correos corporativos y certificado SSL.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Realizan rediseños de marcas o webs existentes?</summary>
+          <p>Sí. Auditamos tu presencia actual y proponemos una modernización visual y funcional que conserve la esencia de tu negocio pero proyecte mayor profesionalismo.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Ofrecen soporte después de la entrega?</summary>
+          <p>Sí, ofrecemos soporte post-entrega para garantizar que todo funcione correctamente. El tiempo de cobertura depende del paquete contratado (desde 30 días hasta 3 meses).</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Brindan asesoría tributaria mensual?</summary>
+          <p>Sí, ofrecemos planes mensuales de contabilidad que incluyen liquidación de impuestos, nómina electrónica y estados financieros para que te dediques a crecer tu negocio.</p>
+        </details>
+      </div>
+
+      <div class="section-header center" style="margin-top: 48px;">
+        <p class="lead">¿No encuentras la respuesta que buscas?</p>
+        <a href="#contacto" class="btn btn-primary-outline">Contacta con nosotros</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="badge">Contáctanos</span>
+          <h3>Hablemos de tu <span class="accent">próximo proyecto</span></h3>
+          <p class="lead" style="margin-left:0">Estamos listos para ayudarte a escalar tu negocio. Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.</p>
+          
+          <div class="info-items">
+            <div class="info-item">
+              <div class="icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <strong>Ubicación</strong>
+                <p>Bogotá, Colombia</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <strong>Correo</strong>
+                <p>hola@connectapro.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <strong>Teléfono / WhatsApp</strong>
+                <p>+57 323 317 0626</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label>
+              <span>Nombre completo</span>
+              <input type="text" name="name" id="name" placeholder="Ej. Juan Pérez" required>
+            </label>
+            <label>
+              <span>Teléfono</span>
+              <input type="tel" name="phone" id="phone" placeholder="+57 300..." required>
+            </label>
+          </div>
+          
+          <label>
+            <span>Correo corporativo</span>
+            <input type="email" name="email" id="email" placeholder="juan@empresa.com" required>
+          </label>
+          <label>
+            <span>Servicio de interés</span>
+            <select name="service" id="service" required>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option>Desarrollo de Software</option>
+              <option>Diseño & Marketing</option>
+              <option>Consultoría Fiscal</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>
+            <span>Detalles del proyecto</span>
+            <textarea name="message" id="message" rows="4" placeholder="Cuéntanos brevemente sobre tus objetivos..."></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary full-width">Enviar Solicitud</button>
+          </div>
+          <div id="formMsg" class="form-msg" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Connecta Pro. Todos los derechos reservados.</div>
+      <div class="socials">
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante WhatsApp -->
+  <a href="https://wa.me/573233170626?text=Hola,%20quisiera%20más%20información" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+    </svg>
+  </a>
+
+  <!-- Modal simple (info/solicitud) -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Cerrar">✕</button>
+      <h3 id="modalTitle">Solicitar Información</h3>
+      <p id="modalText">Completa el formulario para que nuestro equipo te contacte.</p>
+
+      <form id="modalForm" class="modal-form" novalidate>
+        <label><span>Nombre</span><input type="text" id="mname" required></label>
+        <label><span>Correo</span><input type="email" id="memail" required></label>
+        <label><span>Servicio</span><input type="text" id="mservice" readonly></label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        <div id="modalMsg" class="form-msg"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
