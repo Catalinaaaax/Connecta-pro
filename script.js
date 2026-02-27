@@ -154,6 +154,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       if (mainNav.classList.contains('open')) {
         mainNav.classList.remove('open');
         navToggle.classList.remove('active');
+        mainNav.style.display = ''; // Forzar cierre del menú
       }
 
       targetElement.scrollIntoView({

@@ -255,7 +255,23 @@ body{
 }
 @media (max-width:720px){
   .header-inner{gap:12px}
-  .nav{display:none}
+  
+  /* Estilos del Menú Móvil */
+  .nav{
+    display:none; /* Se activa con JS */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #050505;
+    padding: 30px 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.9);
+  }
+  .nav-list{flex-direction:column; gap:20px; text-align:center}
+  .nav-list a{font-size:18px; display:block; padding:5px}
+  .actions .btn-primary{display:none} /* Ocultar botón grande en móvil para dar espacio */
+
   .hamburger{display:block}
   .hero{min-height:640px;padding-top:90px}
   .hero-title{font-size:36px}
